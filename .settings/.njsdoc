@@ -1,0 +1,9 @@
+
+
+
+// This recipe includes all the files referenced by index.html using this 
+// regular expression to extract them
+JSDT.recipe("Recipe2")
+	.sequence("src/", "njsdoc-demo/src/index.html", "<script.*src=\"(.*)\\\"")
+	.define();
+	
